@@ -1,0 +1,179 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav{
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+/* profile page r*/
+
+/* navbar */
+
+#selfie{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between
+}
+
+ul{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	gap: 20px;
+	padding-left: 0px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+ul li a {
+	text-decoration: none;
+	list-style-type: none;
+	transition: all 500ms;
+
+}
+
+ul li a:hover{
+	text-decoration: underline;
+	font-size:25px;
+    font-size-adjust: 20px;
+	color: orange;
+}
+
+/* hobbies */
+
+.section-header{
+	text-align: center;
+	font-weight: 900;
+	background-color: gray;
+	margin-top: 0px;
+	border: 2px solid orange;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#hobbies{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.photo{
+	height: 150px;
+	width: 150px;
+}
+
+.hobby{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.skill{
+	display: flex;
+	align-items: center;
+}
+
+.skill-list{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 20px;
+}
+
+.skill-list li {
+	list-style-type: square;
+}
+
+#career{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+video{
+	height: 300px;
+	width: 300px;
+}
+
+#fun-fact{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer{
+	text-align: center;
+	font-weight: 900;
+	background-color: gray;
+	margin-top: 20px;
+	border: 2px solid orange;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+button{
+	padding: 7px;
+	border-radius: 10px;
+	background-color: rgb(238, 238, 155);
+	border: none;
+	box-shadow: 5px 5px 10px black;
+}
+
+.fav-color:hover{
+	background-color: black;
+	color: rgb(238, 238, 155);
+	transition: .7s;
+}
+
+.fav-place:active{
+	box-shadow: inset 5px 5px black;
+}
+
+.fav-ritual:focus{
+	opacity: .5;
+}

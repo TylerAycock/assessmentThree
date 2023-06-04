@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Tyler's Profile</title>
+</head>
+<body>
+    <header class="navbar">
+        <ul>
+            <li ><a href="./home.html">Home</a></li>
+	        <li ><a href="#hobbies">Hobbies</a></li>
+	        <li ><a href="#skills">Skills</a></li>
+            <li ><a href="#career">Career Goals</a></li>
+            <li ><a href="#facts">Fun Facts</a></li>
+        </ul>
+        <img src="./images/selfie.jpeg" alt="photo of the author" id="selfie">
+    </header>
+    <main>
+        <h2 class="section-header">Hobbies</h2>
+        <p>Living in Southern California makes it easy to have so many different outdoor hobbies. Below are just a few of my favorite things to do here in San Diego. </p>
+        <section id="hobbies">
+            <div class="hobby">
+                <img src="./images/hiking.jpg" alt="selfie from the top of Mt Whitney" class="photo">
+                hiking 
+            </div>
+            <div class="hobby">
+                <img src="./images/cycling.jpg" alt="photo with my bike" class="photo">
+                cycling 
+            </div>
+            <div class="hobby">
+                <img src="./images/surf.jpg" alt="action shot of surfing" class="photo">
+                surfing
+            </div>
+            <div class="hobby">
+                <img src="images/skiing.jpg" alt="ski mountain photo" class="photo">
+                skiing 
+            </div>
+            <div class="hobby">
+                <img src="./images/volleyball.jpg" alt="people playing beach volleyball" class="photo">
+                beach volleyball
+            </div>
+        </section>
+        <h2 class="section-header">Skills</h2>
+        <p>As the wise <em>Napoleon Dynamite</em> once said <q>You know, like nunchuck skills, bowhunting skills, computer hacking skills... Girls only want boyfriends who have great skills.</q> <br><br>Sadly I don't own any nunchucks, BUT I do have the following...</p>
+        <section id="skills">
+            <div class="skill">
+                <a href="https://github.com/TylerAycock" target="_blank"><img src="./images/github-mark-white.png" alt="github logo"></a>
+                <ul class="skill-list">
+                    <strong>Front-End Skills:</strong>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <p>GitHub showcases everyting I've done up to this point in my career. Click the photo to check out some of my latest repositories!</p>
+        </section>
+        <h2 class="section-header">Career Goals</h2>
+        <section id="career">
+            <video src="./images/careervideo.mp4" controls></video>
+        </section>
+    </main>
+    <p id="fun-fact"></p>
+    <footer id="facts">
+        <button id="color" class="fav-color">My Favorite Color</button>
+        <button id="place" class="fav-place">My Favorite Place</button>
+        <button id="ritual" class="fav-ritual">My Favorite Ritual</button>
+    </footer>
+    <script src="./profile.js"></script>
+</body>
+</html>
+<br>
+<br>
+
+
